@@ -214,7 +214,7 @@ p {
 /* Top header bar */
 .header-top {
   overflow: hidden;
-  background-color: #fefefe;
+  background-color: #222222;
 }
 
 .header .header-top .container {
@@ -254,6 +254,7 @@ p {
     font-size: 1.75rem;
   }
 }
+/*
 .logo-text:after {
   content: "";
   position: absolute;
@@ -269,14 +270,14 @@ p {
   background-size: 1.25rem;
   border-radius: 100%;
   transform: translateY(-50%);
-}
-@media (min-width: 52em) {
+} */
+/* @media (min-width: 52em) {
   .logo-text:after {
     height: 2.5rem;
     width: 2.5rem;
     background-size: 1.75rem;
   }
-}
+} */
 .logo-text-secondary {
   margin-left: -0.25rem;
   font-weight: 700;
@@ -290,7 +291,7 @@ p {
     Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
   font-size: 1rem;
   white-space: nowrap;
-  color: #1f1f1f;
+  color: #fff;
 }
 
 @media (min-width: 52em) {
@@ -319,7 +320,7 @@ p {
   line-height: 1;
   text-align: right;
   text-decoration: none;
-  color: #127eba;
+  color: #fff;
 }
 .header-cta-icon {
   height: auto;
@@ -327,7 +328,7 @@ p {
   margin-right: 0.25rem;
 }
 .header-cta-icon path {
-  fill: #e6823e;
+  fill: #fff;
 }
 .header-cta-disclosure {
   display: flex;
@@ -337,7 +338,6 @@ p {
   font-size: 0.8125rem;
   line-height: 1;
   text-decoration: none;
-  color: #707070;
   outline: none;
 }
 .header-cta-disclosure .fa {
@@ -448,14 +448,14 @@ p {
     margin-left: 0;
   }
 }
-@media (min-width: 52em) {
+/* @media (min-width: 52em) {
   .icon-addiction,
   .icon-information,
   .icon-news,
   .icon-treatment {
     display: none;
   }
-}
+} */
 .navigation-item-text {
   display: block;
   margin-top: 0.25rem;
