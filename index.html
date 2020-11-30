@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Find A Drug Rehab Center - Addiction Helpline America</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@300;400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Yantramanav:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./normalize.css">
     <link rel="stylesheet" href="./css/main.css">
     <script src="https://use.fontawesome.com/06c5fd5dae.js"></script>
     <link rel="stylesheet" href="./fonts/fontawesome-webfont.woff">
-    <link rel="stylesheet" href="./newsalert.css">
-    <link rel="stylesheet" href="./hero.css">
 </head>
 
 <body>
@@ -32,7 +34,7 @@
                             Treatment professionals are waiting for your call:
                         </span>
                         <a class="header-cta-disclosure" href="#" tabindex="0">
-                            <span class="fa fa-info-circle"></span> Calls will be forwarded to these treatment providers
+                            <span class="fa fa-info-circle"></span>Calls will be forwarded to these treatment providers
                         </a>
                     </div>
                     <a class="header-cta-phone-number" href="tel:+18445674461">
@@ -195,15 +197,335 @@
     <!-- Hero -->
     <div class="hero">
         <picture class="photo">
-            <source srcset="./images/home-hero-bg-150x150" media="(max-width: 150px)">
-            <source srcset="./images/home-hero-bg-300x130.jpg" media="(max-width: 300px)">
-            <source srcset="./images/home-hero-bg-768x333.jpg" media="(max-width: 768px)">
-            <source srcset="./images/home-hero-bg-1024x444.jpg" media="(max-width: 1024px)">
-            <source srcset="./images/home-hero-bg.jpg" media="(max-width: 1500px)">
-            <img style="object-position: top;" src="./images/home-hero-bg.jpg" alt="">
+            <source media="(max-width: 150px)" srcset="./images/home-hero-bg-150x150.jpg">
+            <source media="(max-width: 300px)" srcset="./images/home-hero-bg-300x130.jpg">
+            <source media="(max-width: 768px)" srcset="./images/home-hero-bg-768x333.jpg">
+            <source media="(max-width: 1024px)" srcset="./images/home-hero-bg-1024x444.jpg">
+            <source media="(max-width: 1500px)" srcset="./images/home-hero-bg.jpg">
+            <source media="(max-width: 1500px)" srcset="./images/home-hero-bg.jpg">
+            <source media="(max-width: 300px)" srcset="./images/home-hero-bg-300x130.jpg">
+            <img class="Photo__img lazyloaded" src="./images/home-hero-bg.jpg" alt="">
+
         </picture>
+        <div class="container">
+            <h1 class="hero-title">We’re Here For You</h1>
+            <p class="hero-subtitle">We'll help you find a drug or alcohol rehab solution.<span class="md-hide lg-hide">
+                    Call now to get on the road to recovery.</span>
+                <span class="xs-hide sm-hide">Enter your phone number to receive a call from a treatment
+                    professional.</span></p>
+            <div class="split-cta split-cta-hero">
+                <p class="split-cta-heading">Speak with a treatment professional</p>
+                <p class="split-cta-left">
+                    <span class="split-cta-label">Make a call</span>
+                    <a class="btn btn-block btn-primary phone-number" href="tel:+18445271473">(844) 527-1473</a>
+                </p>
+                <p class="split-cta-or">- OR -</p>
+                <div class="split-cta-form">
+                    <span class="split-cta-label">Request a call</span>
+                    <form class="form form-horizontal" action="">
+                        <input class="form-input" name="phone-number" type="text" placeholder="(___) ___-____"
+                            required="">
+                        <button class="btn btn-primary" type="submit">Get a Call</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
     </div>
     <!-- Hero End -->
+    <!-- News cta-->
+    <div class="news-cta">
+        <div class="container">
+            <div class="news-cta-left">
+                <h2>Get Help During COVID-19</h2>
+                <p>Coronavirus should be a unique opportunity for you to seek treatment. If your job, classes, and
+                    social life have held
+                    you back from getting help, why not give rehab a chance during isolation? With just 30 days at a
+                    professional rehab
+                    center, you can get clean and sober, start therapy, join a support group, and learn ways to manage
+                    your cravings.
+                </p>
+            </div>
+            <div class="news-cta-right">
+                <a class="btn btn-outline">Learn More</a>
+            </div>
+        </div>
+    </div>
+    <!-- End News cta -->
+    <!-- Section map -->
+    <section class="home-section section-map">
+        <svg class="USMap" viewBox="0 0 891.96 553.58" xmlns="http://www.w3.org/2000/svg">
+            <title>Map of the United States with various map markers</title>
+            <path class="USMap__outline"
+                d="M889,68.7c-3.2-0.5-4,2.2-6.1,0c0.8-3.5-1.5-3.9-1-7.1c-2.7,0-5.8,0.4-7.1-1c-1.7-10.8-6-19-8.1-29.3c-4,0-5.9-2.2-9.1-3c-2.5,2.2-4.4,5-8.1,6.1c-2.8-0.2-1.3-4.8-5-4c-4,9.8-11,25.2-6.1,37.4c-2.6,4.1-5.3,8.2-5,15.2c-3.6-0.8-4.9,2.3-7.1,0c-1,3-0.8,7.3-4,8.1c-10.6,1.8-22.3,6.5-33.4,9c-5.3,1.2-10.9,0.3-15.2,3c-4.9,3.1-6.6,10.3-10.1,15.2c-2.4,3.3-7.5,3.9-6.1,9.1c4.7,1.6,3.8,7,4,10.1c-9.5,13.7-27.3,7-42.4,14.1c0.3,4.8,3.3,6.8,5,10.1c-13,17.6-31.8,29.5-52.5,39.4c-3.2-4.2-13.3-1.5-15.2-7.1c5.2-5,4.2-18.8,12.1-18.2c-1-13.2-2.7-25.6-11.1-31.3c-6.6,0.8-5.7,9.1-11.1,11.1c-4,0.7-2.9-3.8-3-7.1c11.6-3,3.8-20.8,6.1-26.3c-2.7,0.3-2.6-2.1-3-4c-10.9,0-20.2-12.1-26.3-1c-0.9,3.2,3.3,1.4,3,4c-3.5-0.8-4.3,1.1-6.1,2c-0.8,6.2,2.8,10.3-3,11.1c-1.5-4.9,4.3-8.7,0-10.1c-9.3,10.2-9.8,21-11.1,38.4c11.3,10.9,7.9,38.1-7.1,42.4c-21.2-19-9.3-58.1-4-79.8c-4.1,5-8.3,15.2-13.1,16.2c3.4-9.7,9.5-16.7,12.1-27.3c8.7,2.2,13.6-4.3,24.2-7.1c9,1.5,16.9-0.1,23.2-1c-4.6-0.8-5.8-5-5-11.1c-5.4,0.2-9.4,4.2-14.1,2v-6c-14.8,1.6-22.5,11.1-35.5,9.1c-1.7-8.2-13.3-9.9-16.2-6.1c1.5-6.5,6.8-9.3,10.1-14.1c-10,0.1-13.5,6.7-18.2,12.1c-6.9,3.9-14.9,6.6-21.2,11.1c-1.1-3.8-6,0-7.1-2c0.9-2.1,3.1-3,3-6.1c-5.2-1.9-11.8,8.2-19.2,4c7.4-4.1,10.4-13.3,17.2-18.2c5.7-4.1,14-3.3,18.2-10.1c-6-1.2-15.4-0.4-19.2-4c-5.2,5.4-15.8,4.8-17.2-2c-8.7,2.7-16-9.7-24.2-2c-4.2-1.5-7.3-4.2-13.1-4c-4.4-3-0.3-14.5-8.1-14.1c-2.3,1,0.5,7.2-2,8.1C317.1,55.3,190.8,29.4,76.8,0c4.7,7.4,0.4,16.3,2,22.2c-4.8-3.8-2.4-7-2-10.1c-4.1-0.7-2.5,4.2-6.1,4C60.3,14.4,54.6,8,46.5,4c-0.7,9.4-1.6,25.2,3,32.3c-1.4-0.2-2.8,0.2-4,1c-1.1,3.8,2.5,2.9,2,6.1c-4.2,2.7-5.7,7.9-1,10.1c-3.2-0.9-2.1,2.6-4,3c-7,23-15.2,44.7-28.3,61.6c0.3,6-1.1,10.4-2,15.1c6.1,15.7-7.4,28-12.1,39.4C11.4,180,0.8,193.3,2,203c0.5,4.2,7.8,10.6,8.1,17.2c0.3,6.4,0.9,8.4,5.1,12.1c-5.3,8.7-0.1,19.9,6.1,23.3c-0.6,3.5-4.6,3.4-5,7.1c0.4,13.3,13.3,23.8,14.1,35.4c0.4,5.3-4.8,9.2-1,14.1c17.7-0.5,19.6,14.8,32.3,19.2c0.6,3.2-1.9,3.1,0,5c11.8,2.7,16,13,15.1,28.3c12.4,4.5,29.4,4.2,43.4,7.1c0,2-2.8,1.3-2,4c15.9,7.8,30.8,18.7,45.5,27.3c18.8,11.1,41.1,13.8,69.7,17.2c0.5-3.5,0.4-7.6,2-10.1c9.9,1.6,19.5,3.4,30.3,4c7,8.8,12.3,19.3,23.2,24.2c5.7,6.1,3.9,12.7,6.1,21.2c2.9,11.2,17.1,13.8,26.3,20.2c7.2-4.6,6.3-17.3,17.2-18.2c21.4,2.5,31.9,16,35.4,36.4c7.3,3.8,9.1,13.1,16.2,17.2c-4.5,25.4,24.2,31.6,41.4,35.4c-3.2-13.5-2.5-26.8-1-41.4c17-11.6,37.8-19.4,51.5-34.4c14.4-12,39.7-3.1,54.6-3c-0.6-5.7-6.8-0.2-8.1-4c6.3-5.9,11.4,4,17.2,5c0.2,1.9-1.1,2.2-1,4c3.5,1.5,6.3,3.8,11.1,4c2.5-1.9,3.8-5,8.1-5c3.3,2-2.5,4.3,0,5c8-2.5,1.8-7.7,8.1-10.1c1.5,4.8,15.1,11.2,16.2,4c-2.8-3.9-11.2-2.3-13.1-7.1c3.2-2.7,7.2-3.5,5-11.1c-4.5-0.4-2.5,5.6-8.1,4c4.5-12,15-10.5,29.3-11.1c2-1.7,0.4-7,4-7.1c2.1,1.7,4.9,7.4,1,9.1c16.7-5.5,41-9.9,49.5,6.1c9-0.8,17.1-4.4,18.2-10.1c17.3-1.8,16.2,14.8,30.3,16.2c8.5,6.9-1.2,25.7,7.1,32.3c2.5-2.8-0.8-6.8,0-7.1c1.5,0.2,3.7-0.4,4,1c0.4,4.8-3.8,4.9-4,9.1c5.3,6.1,9.7,12.9,13.1,20.2c2.9,0.8,2.6-1.4,5-1c2.1,3.3,3.2,7.6,5,11.1c8.9-2,12.7,7.7,15.2,15.2c3.8-1.2,10.5-5,13.1-4c-1.3,6.1-11.5,8.7-11.1,13.1c7-5.1,13.5-10.8,15.2-21.2c-3.6-1.6-0.6,3.4-3,3c7.6-26.5-7-44.6-16.2-60.6c0-2,2.8-1.3,2-4c-15.3-13.7-31.4-41.1-22.2-67.7c2.1-6.2,9-9.6,9.1-16.2c9.6-3.2,12.1-13.5,20.2-18.2c-0.6-13.4,6.7-18.9,18.2-20.2c-0.9-20,24.7-16.2,25.2-29.3c-0.8,1.8-8.7,3-10.1,0c4.2,3.4,7-5.4,3-7.1c6.5,1.9,13.5-1,14.1-8.1c-1.6-2.8-6.2,2.4-8.1-1c3.6,0.2,6-0.7,7.1-3l-0.5-1.5l1.5,0.5c-4.3-6.5-7.7-13.8-11.1-21.2c-2.3,0-4.9-0.3-6.4,0.5c4-3.3-4.6-7.3-2.7-9.6c1,0,1.2,0.8,2,1c-0.6-7.5-2.8-13.3-8.1-16.2c2.7,0.7,2-2.1,3-3c-7-4.5-8.1-23.2-1-24.2c-4.6,4.2,2.9,9.3-2,14.1c4.5,0.1,1.7,1.4,2,7.1c5.4,0.4,4.3,7.2,8.1,9.1c1.5-3.6-3.2-6.1-1-7.1c10.6,3.7-1.9,18.5,6.1,24.2c2-13,11.4-25.3,6.1-39.4c-7.1-2-8.1-10.1-12.1-15.1c2.7,4,6.6,6.9,13.1,7.1c0.4,2.4-1.8,2.2-1,5.1c9.3-9.2,13.2-22.5,10.2-35.3c-1.2-2.5-3.8,2.1-5-1c2.1-0.3,2-2.7,4-3l-0.5-2.7l1.5-2.3c7.1-14.4,28-15.1,40.4-24.2c1.3-3-0.5-5.1,4-6.1c0.6,3.3-0.3,5.1-2,6.1c4.6-2.5,6.8-7.4,13.1-8.1c-0.2-5.2-1.6-9.2-7.1-9.1c0.5,3.2,5.2,2.2,5,6.1c-8.7,7.7-10.5-9.4-17.2-7.1c0.6-8.9-0.5-21.1,4-34.3c5.6,1,9.4-5.2,14.1-8.1c0.7-3.5-1.1-9.6,0-10.1c1.2,1.5,4.2,1.2,4,4c-2.4,1.5-3.7,1.5-2,5.1c5.1-1.2,2.7-8.1,6.1-11.1c-0.3,2.6-0.3,5.1,3,4c1.9-6-1.2-2.8-2-6.1C883.5,91.7,898.3,76.2,889,68.7z">
+            </path>
+            <g class="USMap__markers">
+                <path
+                    d="M70.4,130c-10.6,0-19.2,8.6-19.2,19.1c0,7.6,4.6,16,9,22.7c2.7,4.1,5.7,7.9,8.9,11.6c0.7,0.7,1.8,0.8,2.5,0.1l0.1-0.1c3.2-3.7,6.2-7.5,8.9-11.6c4.4-6.7,9-15.1,9-22.7C89.6,138.6,81,130,70.4,130z M70.4,157.6c-4.6,0-8.4-3.8-8.4-8.4c0-4.6,3.7-8.4,8.3-8.4c0,0,0.1,0,0.1,0v0c4.6,0,8.4,3.8,8.4,8.4C78.8,153.8,75.1,157.6,70.4,157.6z">
+                </path>
+                <path
+                    d="M293.8,83.5c-10.6,0-19.2,8.6-19.2,19.1c0,7.6,4.6,16,9,22.7c2.7,4.1,5.7,7.9,8.9,11.6c0.7,0.7,1.8,0.8,2.5,0.1l0.1-0.1c3.2-3.7,6.2-7.5,8.9-11.6c4.4-6.7,9-15.1,9-22.7C312.9,92,304.4,83.5,293.8,83.5z M293.8,111.1c-4.6,0-8.4-3.8-8.4-8.4c0-4.6,3.7-8.4,8.3-8.4c0,0,0.1,0,0.1,0v0c4.6,0,8.4,3.8,8.4,8.4C302.2,107.3,298.4,111.1,293.8,111.1z">
+                </path>
+                <path
+                    d="M137.8,258.5c-10.6,0-19.2,8.6-19.2,19.1c0,7.6,4.6,16,9,22.7c2.7,4.1,5.7,7.9,8.9,11.6c0.7,0.7,1.8,0.8,2.5,0.1l0.1-0.1c3.2-3.7,6.2-7.5,8.9-11.6c4.4-6.7,9-15.1,9-22.7C156.9,267,148.4,258.5,137.8,258.5z M137.8,286.1c-4.6,0-8.4-3.8-8.4-8.4c0-4.6,3.7-8.4,8.3-8.4c0,0,0.1,0,0.1,0v0c4.6,0,8.4,3.8,8.4,8.4C146.2,282.3,142.4,286.1,137.8,286.1z">
+                </path>
+                <path
+                    d="M347.8,205.5c-10.6,0-19.2,8.6-19.2,19.1c0,7.6,4.6,16,9,22.7c2.7,4.1,5.7,7.9,8.9,11.6c0.7,0.7,1.8,0.8,2.5,0.1l0.1-0.1c3.2-3.7,6.2-7.5,8.9-11.6c4.4-6.7,9-15.1,9-22.7C366.9,214,358.4,205.5,347.8,205.5z M347.8,233.1c-4.6,0-8.4-3.8-8.4-8.4c0-4.6,3.7-8.4,8.3-8.4c0,0,0.1,0,0.1,0v0c4.6,0,8.4,3.8,8.4,8.4C356.2,229.3,352.4,233.1,347.8,233.1z">
+                </path>
+                <path
+                    d="M329.8,362.5c-10.6,0-19.2,8.6-19.2,19.1c0,7.6,4.6,16,9,22.7c2.7,4.1,5.7,7.9,8.9,11.6c0.7,0.7,1.8,0.8,2.5,0.1l0.1-0.1c3.2-3.7,6.2-7.5,8.9-11.6c4.4-6.7,9-15.1,9-22.7C348.9,371,340.4,362.5,329.8,362.5z M329.8,390.1c-4.6,0-8.4-3.8-8.4-8.4c0-4.6,3.7-8.4,8.3-8.4c0,0,0.1,0,0.1,0v0c4.6,0,8.4,3.8,8.4,8.4C338.2,386.3,334.4,390.1,329.8,390.1z">
+                </path>
+                <path
+                    d="M527.8,271.5c-10.6,0-19.2,8.6-19.2,19.1c0,7.6,4.6,16,9,22.7c2.7,4.1,5.7,7.9,8.9,11.6c0.7,0.7,1.8,0.8,2.5,0.1l0.1-0.1c3.2-3.7,6.2-7.5,8.9-11.6c4.4-6.7,9-15.1,9-22.7C546.9,280,538.4,271.5,527.8,271.5z M527.8,299.1c-4.6,0-8.4-3.8-8.4-8.4c0-4.6,3.7-8.4,8.3-8.4c0,0,0.1,0,0.1,0v0c4.6,0,8.4,3.8,8.4,8.4C536.2,295.3,532.4,299.1,527.8,299.1z">
+                </path>
+                <path
+                    d="M741.7,180.6c-10.6,0-19.2,8.6-19.2,19.1c0,7.6,4.6,16,9,22.7c2.7,4.1,5.7,7.9,8.9,11.6c0.7,0.7,1.8,0.8,2.5,0.1l0.1-0.1c3.2-3.7,6.2-7.5,8.9-11.6c4.4-6.7,9-15.1,9-22.7C760.9,189.2,752.3,180.6,741.7,180.6z M741.7,208.2c-4.6,0-8.4-3.8-8.4-8.4c0-4.6,3.7-8.4,8.3-8.4c0,0,0.1,0,0.1,0v0c4.6,0,8.4,3.8,8.4,8.4C750.1,204.4,746.4,208.2,741.7,208.2z">
+                </path>
+                <path
+                    d="M663.8,337.5c-10.6,0-19.2,8.6-19.2,19.1c0,7.6,4.6,16,9,22.7c2.7,4.1,5.7,7.9,8.9,11.6c0.7,0.7,1.8,0.8,2.5,0.1l0.1-0.1c3.2-3.7,6.2-7.5,8.9-11.6c4.4-6.7,9-15.1,9-22.7C682.9,346,674.4,337.5,663.8,337.5z M663.8,365.1c-4.6,0-8.4-3.8-8.4-8.4c0-4.6,3.7-8.4,8.3-8.4c0,0,0.1,0,0.1,0v0c4.6,0,8.4,3.8,8.4,8.4C672.2,361.3,668.4,365.1,663.8,365.1z">
+                </path>
+            </g>
+        </svg>
+        <div class="container">
+            <div class="section-map-text">
+                <h2 class="md-hide mt1">Our Featured Facilities</h2>
+                <h2 class="xs-hide mt1">Browse Drug Rehab Centers</h2>
+                <p>No matter where you live, there is a drug rehab center that can help you overcome your addiction. We
+                    can help you
+                    find treatment based on your location, budget, and specific needs and help you get started quickly.
+                </p>
+            </div>
+            <div class="states">
+                <ul class="state-links">
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./alabama/">Alabama <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./alaska/">Alaska <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./arizona/">Arizona <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./arkansas/">Arkansas <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./california/">California
+                            <span class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./colorado/">Colorado <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./connecticut/">Connecticut
+                            <span class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./delaware/">Delaware <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./florida/">Florida <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./georgia/">Georgia <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./hawaii/">Hawaii <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./idaho/">Idaho <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./illinois/">Illinois <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./indiana/">Indiana <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./iowa/">Iowa <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./kansas/">Kansas <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./kentucky/">Kentucky <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./louisiana/">Louisiana
+                            <span class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./maine/">Maine <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./maryland/">Maryland <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./massachusetts/">Massachusetts <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./michigan/">Michigan <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./minnesota/">Minnesota
+                            <span class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./mississippi/">Mississippi
+                            <span class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./missouri/">Missouri <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./montana/">Montana <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./nebraska/">Nebraska <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./nevada/">Nevada <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./new-hampshire/">New
+                            Hampshire <span class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./new-jersey/">New Jersey
+                            <span class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./new-mexico/">New Mexico
+                            <span class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./new-york/">New York <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./north-carolina/">North
+                            Carolina <span class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./north-dakota/">North
+                            Dakota <span class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./ohio/">Ohio <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./oklahoma/">Oklahoma <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./oregon/">Oregon <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./pennsylvania/">Pennsylvania <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./rhode-island/">Rhode
+                            Island <span class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./south-carolina/">South
+                            Carolina <span class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./south-dakota/">South
+                            Dakota <span class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./tennessee/">Tennessee
+                            <span class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./texas/">Texas <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./utah/">Utah <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./vermont/">Vermont <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./virginia/">Virginia <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./washington/">Washington
+                            <span class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./west-virginia/">West
+                            Virginia <span class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./wisconsin/">Wisconsin
+                            <span class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./wyoming/">Wyoming <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./guam/">Guam <span
+                                class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./puerto-rico/">Puerto Rico
+                            <span class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./us-pacific-islands/">US
+                            Pacific Islands <span class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./us-virgin-islands/">US
+                            Virgin Islands <span class="fa fa-angle-right"></span></a>
+                    </li>
+                    <li class="state-links-item">
+                        <a class="btn btn-small btn-blue-darker" href="./washington-dc/">Washington
+                            D.C. <span class="fa fa-angle-right"></span></a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </section>
+    <!-- End section map-->
+    <section class="home-section section-featured">
+
+    </section>
 
 </body>
 
